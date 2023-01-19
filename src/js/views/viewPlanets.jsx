@@ -26,7 +26,7 @@ const params= useParams()
   <div className="card mb-3 border-0" >
   <div className="row g-0">
     <div className="col-md container">
-      <img src="https://lumiere-a.akamaihd.net/v1/images/mando-s3trailer-hero-mobile_bde8d0cd.jpeg?region=0,0,1024,626&width=960" style={{ width:"800px", height: "600px" }} className="img-fluid rounded-start" alt="..."/>
+      <img src={"https://starwars-visualguide.com/assets/img/planets/"+(params.theid)+".jpg"} style={{ width:"800px", height: "600px" }} className="img-fluid rounded-start" alt="..."/>
     </div>
     <div className="col-md-8">
       <div className="card-body">

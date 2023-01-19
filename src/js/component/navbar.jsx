@@ -15,6 +15,9 @@ export const Navbar = () => {
           style={{ width: "218px" }}
         />
       </Link>
+      <div>
+        <img src="https://media2.giphy.com/media/aIR1vdOsUuNhe/giphy.gif" />
+      </div>
       <div className="ml-auto">
         <div className="btn-group">
           <button

@@ -22,7 +22,7 @@ const{actions}=useContext(Context)
   return (
     <div className="card" style={{ width: "18rem" }}>
       <img
-        src="https://funkilandia.com/wp-content/uploads/2022/08/funkilandia_img_285.png"
+        src={"https://starwars-visualguide.com/assets/img/characters/"+(id)+".jpg"}
         className="card-img-top"
         alt="..."
       />
