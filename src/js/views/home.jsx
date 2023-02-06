@@ -42,10 +42,9 @@ export const Home = () => {
     
     // aca se trae a la card de personajes
     <div lassName="container" >
-
     <div className="">
     <h1 className=" rounded-3 text-white text-center bg-black border-white p-2 border border-2"><strong>Characters</strong></h1>		
-    <div className= "d-flex">
+    <div className="d-flex flex-row overflow-scroll">
     <div className="d-flex scrollable">
       {store.personajes.map((cadaPersonaje, index) => (
         <Characters
@@ -62,7 +61,7 @@ export const Home = () => {
     {/* aca se trae la card de vehiculos */}
 	  <div className="">
     <h1 className=" rounded-3 text-white text-center bg-black border-white p-2 border border-2"><strong>VEHICULOS</strong></h1>		
-    <div className= "d-flex">
+    <div className="d-flex flex-row overflow-scroll">
     <div className="d-flex scrollable">
       {store.vehiculos.map((cadaVehiculo, index) => (
         <Vehicle
@@ -77,7 +76,7 @@ export const Home = () => {
     </div>
 <div className="">
 <h1 className=" rounded-3 text-white text-center bg-black border-white p-2 border border-2"><strong>PLANETAS</strong></h1>	
-<div className= "d-flex">
+<div className="d-flex flex-row overflow-scroll">
 <div className="d-flex scrollable">
 	  {store.planetas.map((cadaPlaneta, index) => (
         <Planets
